@@ -1,39 +1,44 @@
 *{
     box-sizing: border-box;
-   
+   border: 1px solid black;
 }
 body { background-color: #7fffd4;}
 
 .borde { background-color: #040004; height: 100px;}
 
-.caja1 {background-color: #C8FF00;
+.caja1 {background-color: yellow;
          height: 50px;}
 
 .caja2 { background-color:purple ;
 height: 50px;}
 
-.caja3 { background-color: #C8FF00;
+.caja3 { background-color: yellow;
 height: 50px;}
 
 .caja4 { background-color: purple;
 height: 50px;}
 
-.caja5 { background-color: #C8FF00;
+.caja5 { background-color: yellow;
 height: 50px;}
 
 .caja6 {background-color: purple;
 height: 50px;}
 
-.caja7 {background-color: #C8FF00;
+.caja7 {background-color: yellow;
 height: 50px;}
 
 .caja8 {background-color: purple;
 height: 50px;}
 
-.caja9 {background-color: #C8FF00;
+.caja9 {background-color: yellow;
 height: 50px;}
 
 
 .caja10 {background-color: purple;
 height: 50px;}
+
+
+@media (min-width: 768px) and (max-width : 1199px ) {
+ .caja2 , .caja4 , .caja6 , .caja8 , .caja10  {background-color: #008b9a}   
+}
 
